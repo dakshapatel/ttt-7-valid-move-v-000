@@ -10,11 +10,10 @@ def position_taken?(board,index)
   end
 end
 
-def valid_move?()
-  if position_take?
-
+def valid_move?(board,index)
+  if position_taken?
+    return true
   else
-
-
+    return true
   end
-end
+end 
